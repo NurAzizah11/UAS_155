@@ -220,3 +220,22 @@ namespace UAS_155
         }
     }
 }
+
+/*
+2.Algoritma yang digunakan yaitu :
+1)	Bubble sort
+Bubble Sort adalah algoritma pengurutan paling sederhana yang bekerja dengan berulang kali menukar elemen yang berdekatan jika berada dalam urutan yang salah.
+2)	Linear search
+Linear Search merupakan sebuah teknik pencarian data dengan menelusuri semua data satu per satu. Apabila ditemukan kecocokan data maka program akan mengembalikan output, jika tidak pencarian akan terus berlanjut hingga akhir dari array tersebut. Algoritma ini tidak cocok untuk set data dengan jumlah besar karena kompleksitas dari algorithma ini adalah Ο(n) di mana n adalah jumlah item. Jika data yang dicari berada pada paling akhir dari array, maka program harus menelusuri semua array terlebih dahulu.
+3. Algoritma Queue merupakan struktur data dimana satu data dapat ditambakan diakhir disebut Rear dan data dihapus dari yang paling terkahir disebut Front
+4. a) 5
+    b) Cara membaca struktur pohon dengan metode PostOrder : 
+1.Kunjungi kiri node tersebut,
+• Jika kiri bukan kosong (tidak NULL) mulai lagi dari langkah pertama, terapkan untuk kiri tersebut. 
+• Jika kiri kosong (NULL), lanjut ke langkah kedua. 
+2.	 Kunjungi kanan node tersebut,
+• Jika kanan bukan kosong (tidak NULL) mulai lagi dari langkah pertama, terapkan untuk kanan tersebut. 
+• Jika kanan kosong (NULL), lanjut ke langkah ketiga. 
+3.	 Cetak isi (data) node yang sedang dikunjungi. Proses untuk node ini selesai, tuntaskan proses yang sama untuk node yang dikunjungi sebelumnya.
+*/
+
